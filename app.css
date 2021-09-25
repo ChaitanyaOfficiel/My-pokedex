@@ -1,0 +1,42 @@
+body{
+    color: white;
+    background: red;
+}
+h1{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 2.5rem;
+}
+h2, p {
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    font-family: 'Josefin Sans', sans-serif;
+    word-spacing: 2.5px;
+}
+.card{
+    background: white;
+    list-style: none;
+    color:red;
+    padding: 2em;
+    text-align: center;
+    border-radius: 15%;
+}
+#Pokedex{
+    padding-inline-start: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(320px, 1fr));
+    grid-gap: 1rem;
+}
+.card-image{
+    height: 10em;
+}
+.card-heading{
+    font-size: 1.5em;
+}
+.card-par{
+    font-size: .9rem;
+}
+.container{
+    padding: 20px;
+    margin: 0 auto;
+}
